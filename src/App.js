@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='App'>
       <div className='header'>
-        <div style={{ width: '50%' }}></div>
+        <div></div>
         <div className='header-right'>
           <div className='upcomingStyle'>
             <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -21,31 +21,20 @@ function App() {
         </div>
       </div>
       <div className='body'>
-        <div style={{ fontSize: '1.5rem' }}>Concept Videos</div>
-        <div style={{ fontSize: '0.7rem', paddingTop: '1rem' }}>
-          Select a number
+        <div>
+          <div style={{ fontSize: '1.5rem' }}>Concept Videos</div>
+          <div style={{ fontSize: '0.7rem', paddingTop: '1rem' }}>
+            Select a number
+          </div>
         </div>
         <div
-          style={{ display: 'flex', justifyContent: 'center', height: '350px' }}
+          style={{ display: 'flex', justifyContent: 'center', height: '300px' }}
         >
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-          >
+          <div className='youtube'>
             <div className='left-arrow'>
               <i class='fas fa-angle-left fa-2x'></i>
             </div>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                margin: '0 8rem'
-              }}
-            >
+            <div className='youtubeContainer'>
               <div className='firstYoutubeBox'>
                 <i className='fab fa-youtube fa-2x'></i>
               </div>
@@ -53,13 +42,7 @@ function App() {
                 <i className='fab fa-youtube fa-2x'></i>
               </div>
               <div className='thirdYoutubeBox'>
-                <div
-                  style={{
-                    display: 'flex',
-                    alignItems: 'flex-end',
-                    justifyContent: 'center'
-                  }}
-                >
+                <div className='thirdYoutubeContainer'>
                   <i className='fab fa-youtube fa-2x'></i>
                 </div>
                 <div className='youtubeBoxText'>
@@ -87,7 +70,7 @@ function App() {
             Select a number
           </div>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className='footerContainer'>
           <div className='liveClassesBox'>
             <div className='numberBox'>
               <span className='numberStyle'>5</span>
