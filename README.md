@@ -3,7 +3,7 @@ TO run project:
 1. run this command to clone the project:
    'git clone'
 
-2. 'cd swiflearn.assignmnet'
+2. 'cd swiflearn.assignment'
 
 3. 'npm install'
 
