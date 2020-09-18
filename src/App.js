@@ -25,6 +25,62 @@ function App() {
         <div style={{ fontSize: '0.7rem', paddingTop: '1rem' }}>
           Select a number
         </div>
+        <div
+          style={{ display: 'flex', justifyContent: 'center', height: '350px' }}
+        >
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
+            <div className='left-arrow'>
+              <i class='fas fa-angle-left fa-2x'></i>
+            </div>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                margin: '0 8rem'
+              }}
+            >
+              <div className='firstYoutubeBox'>
+                <i className='fab fa-youtube fa-2x'></i>
+              </div>
+              <div className='secondYoutubeBox'>
+                <i className='fab fa-youtube fa-2x'></i>
+              </div>
+              <div className='thirdYoutubeBox'>
+                <div
+                  style={{
+                    display: 'flex',
+                    alignItems: 'flex-end',
+                    justifyContent: 'center'
+                  }}
+                >
+                  <i className='fab fa-youtube fa-2x'></i>
+                </div>
+                <div className='youtubeBoxText'>
+                  <div>
+                    See what <span style={{ color: 'coral' }}>Leena Barua</span>
+                    &nbsp; thinks about our plans
+                  </div>
+                </div>
+              </div>
+              <div className='fourthYoutubeBox'>
+                <i className='fab fa-youtube fa-2x'></i>
+              </div>
+              <div className='fifthYoutubeBox'>
+                <i className='fab fa-youtube fa-2x'></i>
+              </div>
+            </div>
+            <div className='right-arrow'>
+              <i class='fas fa-angle-right fa-2x'></i>
+            </div>
+          </div>
+        </div>
         <div>
           <div style={{ fontSize: '1.5rem' }}>Live Classes</div>
           <div style={{ fontSize: '0.7rem', paddingTop: '1rem' }}>

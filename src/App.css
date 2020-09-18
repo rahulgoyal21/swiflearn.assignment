@@ -1,41 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 html {
   font-size: 1rem;
   color: grey;
@@ -63,8 +25,9 @@ html {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   width: 5rem;
-  background: linear-gradient(to left, red, yellow);
+  background: linear-gradient(to right, red, yellow);
   cursor: pointer;
+  border-style: hidden;
 }
 .loginbutton:focus {
   border: none;
@@ -126,7 +89,96 @@ html {
 .numberStyle {
   margin-bottom: 0.2rem;
 }
+.ionic-container {
+  width: 90vw;
+  height: 350px;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.firstYoutubeBox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid grey;
+  border-right-style: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondYoutubeBox {
+  width: 180px;
+  height: 180px;
+  border: 1px solid grey;
+  border-right-style: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdYoutubeBox {
+  width: 300px;
+  height: 210px;
+  border: 1px solid grey;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: grid;
+  grid-template-rows: 60% 40%;
+}
+.fourthYoutubeBox {
+  width: 180px;
+  height: 180px;
+  border: 1px solid grey;
+  border-left-style: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fifthYoutubeBox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid grey;
+  border-left-style: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.youtubeBoxText {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 0.7rem;
+  text-align: left;
+  margin: 0 20px 10px 20px;
+}
 @media (max-width: 1199px) {
   html {
     font-size: 0.8rem;
