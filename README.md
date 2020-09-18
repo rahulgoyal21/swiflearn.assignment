@@ -1,7 +1,7 @@
 TO run project:
 
 1. run this command to clone the project:
-   'git clone'
+   'git clone https://github.com/rahulgoyal21/swiflearn.assignment.git'
 
 2. 'cd swiflearn.assignment'
 
